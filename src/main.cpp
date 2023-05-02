@@ -48,15 +48,15 @@ void volt() {
 
 void calibrate() {
   if(!calibrated){
-    vR.autoCalibrate(240);
-    vY.autoCalibrate(180);
-    vB.autoCalibrate(210);
-    v1.autoCalibrate(240);
-    v1.autoCalibrate(180, true);
-    v2.autoCalibrate(180);
-    v2.autoCalibrate(210, true);
-    v3.autoCalibrate(210);
-    v3.autoCalibrate(240, true);
+    vR.autoCalibrate(300);
+    vY.autoCalibrate(300);
+    vB.autoCalibrate(300);
+    v1.autoCalibrate(300);
+    v1.autoCalibrate(300, true);
+    v2.autoCalibrate(300);
+    v2.autoCalibrate(300, true);
+    v3.autoCalibrate(300);
+    v3.autoCalibrate(300, true);
     calibrated = true;
   }
 }
